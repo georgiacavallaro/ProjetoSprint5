@@ -12,76 +12,72 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
+**Bibliotecas:**
+- Pandas
 ```
-Dar exemplos
+pip install pandas
+```
+- Plotly-Express
+```
+pip install plotly-express
+```
+- Streamlit
+```
+pip install streamlit
 ```
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução local, você também pode acessar o deploy [Neste Link](https://dashboardveiculos.onrender.com).
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
+1. Clone o repositóio:
 
 ```
-Até finalizar
+git clone https://github.com/georgiacavallaro/ProjetoSprint5.git
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+2. Crie um ambente virtual `vehicles_env`:
 
 ```
-Dar exemplos
+conda create --name vehicles_env python
 ```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
+3. Ative o ambiente virtual:
 ```
-Dar exemplos
+conda activate vehicles_env
+```
+4. Instale os pacotes necessários:
+```
+pip install -r requirements.txt
 ```
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+Acesse: https://dashboardveiculos.onrender.com
+
+ou
+
+Local:
+1. Rode o script:
+```
+streamlit run nomedoapp.py
+```
+2. Acesse o endereço local: http://localhost:10000
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+* [Streamlit](https://streamlit.io ) - O framework web usado
+* [Render](https://render.com) - O Host do Deploy
+* [Plotly-Express](https://plotly.com/python/) - Usada para gerar os gráficos
 
 ## ✒️ Autores
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+* **Georgia Cavallaro** - *Trabalho Inicial* - [georgiacavallaro](https://github.com/georgiacavallaro)
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+Você também pode ver a lista de todos os [colaboradores](https://github.com/georgiacavallaro/ProjetoSprint5/colaboradores) que participaram deste projeto.
 
 ## 📄 Licença
 
@@ -96,4 +92,4 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ com ❤️ por [Georgia Cavallaro](https://gist.github.com/georgiacavallaro) 🧙‍♀️
